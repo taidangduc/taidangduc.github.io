@@ -1,5 +1,7 @@
 import { ProfileAboutSection } from "./AboutSection";
 import { ProfileEducationSection } from "./EducationSection";
+import { ProfileLanguageSection } from "./LanguageSection";
+import { ProfileProjectSection } from "./ProjectSection";
 import { ProfileSkillSection } from "./SkillSection";
 import { ProfileWorkSection } from "./WorkSection";
 
@@ -11,6 +13,8 @@ export function ProfileContentSection() {
         <ProfileEducationSection />
         <ProfileWorkSection />
         <ProfileSkillSection />
+        <ProfileProjectSection />
+        <ProfileLanguageSection />
       </div>
     </div>
   );

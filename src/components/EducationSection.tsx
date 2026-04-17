@@ -7,7 +7,7 @@ export function ProfileEducationSection() {
           <div className="d-flex gap-3">
             <div className="pe-2 pb-3 flex-shrink-0">2025. 07</div>
             <span>
-              Bachelor of Science in Information Technology, HUFLIT University
+              Bachelor of Information Technology, HUFLIT University
             </span>
           </div>
         </li>
