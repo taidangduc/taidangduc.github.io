@@ -1,4 +1,4 @@
-import avatar_url from "../public/avatar_grayscale.jpg";
+import avatar_url from "../public/avatar_bg_blue.png";
 export function SideBarAvatar() {
   return (
     <div>

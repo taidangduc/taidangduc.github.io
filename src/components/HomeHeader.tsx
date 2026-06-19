@@ -1,7 +1,7 @@
 import { useFileEntry } from "../hooks/useFileEntry";
 
 export function HomeHeader() {
-  const handleDownloadResume = () => {
+  const handleDownloadFile = () => {
     useFileEntry();
   };
 
@@ -11,7 +11,7 @@ export function HomeHeader() {
         <a
           href="#"
           className="h6 mb-0 cursor-pointer"
-          onClick={() => handleDownloadResume()}
+          onClick={() => handleDownloadFile()}
         >
           RESUME
         </a>
